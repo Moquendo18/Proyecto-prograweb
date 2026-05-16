@@ -34,3 +34,7 @@ psql -d tiktok_ulima -c "INSERT INTO usuarios (id, username, email, password_has
 PGHOST=/tmp psql -p 5433 -d tiktok_ulima -c "INSERT INTO usuarios (id, username, email, password_hash, nivel, balance_monedas) VALUES (1, 'demo_user', 'demo@test.com', 'demo', 5, 500);"
 ```
 ### 4. Iniciar servidores
+
+
+npm run dev  en el cliente
+npm run dev en el servidor
